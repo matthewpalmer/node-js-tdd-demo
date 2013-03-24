@@ -24,6 +24,7 @@ process.stdin.resume();
 
 
     if (isNaN(firstNumber) || isNaN(secondNumber) ) {
+      console.log('make sure there is a space!');
       return err;
     }
     console.log(operator);
@@ -43,42 +44,7 @@ process.stdin.resume();
     } else {
       console.log('make sure there is a space between');
     }
-    
 
-    /*
-    if (typeof text == 'string') {
-      
-
-    }
-    
-    var numberFromInput = parseInt(text);
-    console.log('number from input is ',numberFromInput);
-    if (typeof numberFromInput == 'number') {
-      if (isNaN(numberFromInput)) {
-        console.log('nan');
-        return err;
-      }
-      arrayOfInputs.push(numberFromInput);
-
-      console.log('heelo');
-      console.log(numberFromInput);
-
-    
-      console.log(arrayOfInputs);
-      return numberFromInput;
-
-    }
-    
-    if (text === 'quit\n') {
-      done();
-    }
-    if (typeof text == 'string') {
-      return err;
-    }
-    if (text==='') {
-      return err;
-    }
-  */
     
     
   });
